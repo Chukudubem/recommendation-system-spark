@@ -4,7 +4,7 @@ from pyspark import SparkContext
 from itertools import combinations
 
 
-sc = SparkContext(appName ="inf553")
+sc = SparkContext(appName ="recm")
 
 inputfile = sys.argv[1]
 outputfile = sys.argv[2]
